@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number</h1>
+        <p>Pick a number between 1 to 100</p>
+        <input type="number" id="inp" placeholder="Enter your guess">
+        <button id="submit">Guess!</button>
+        <p id="msg"></p>
+        <p>Attempts: <span id="attempt">0</span></p>
+        <p id="timer">Time left: <span id="timeLeft">30</span> seconds</p>
+        <button id="resBtn" style="display:none;">Restart Again</button>
+        <p id="previousGuesses"></p>
+        <button id="toggleMode">Toggle Dark/Light Mode</button>
+        <p id="leaderboard">High Score: <span id="highScore">0</span></p>
+    </div>
+    <script src="./logic.js"></script>
+</body>
+</html>
+
+
