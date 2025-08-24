@@ -1,4 +1,4 @@
-let cnum = Math.floor(Math.random() * 100) + 1;
+let cnum = Math.floor(Math.random() * 100) + 1; // random is used for the random number 
 let attempt = 0;
 let timer = 30;
 let highScore = parseInt(localStorage.getItem('highScore')) || 0;
