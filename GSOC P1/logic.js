@@ -15,7 +15,7 @@ leaderboard.innerText = highScore;
 
 let timerInterval = setInterval(updateTimer, 1000);
 
-function updateTimer() {
+function updateTimer() { // this will update the timer
     if (timer > 0) {
         timer--;
         timeLeft.innerText = timer;
